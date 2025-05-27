@@ -1,0 +1,45 @@
+
+export const TRANSLATIONS = {
+  pageTitle: "Simple Dictionary",
+  mainTitle: "Word Explorer",
+  wordInputPlaceholder: "Enter a word...",
+  searchButton: "Search",
+  luckyButton: "I'm Feeling Lucky",
+  loadingIndicator: "Loading definition...",
+  initialMessage: "Type a word and click 'Search' to find its definition, or click 'I'm Feeling Lucky' for a random word.",
+  wordNotFound: (word: string) => `Could not find definitions for "${word}". Please check your spelling or try another word.`,
+  wordNotFoundTitle: "Word Not Found!",
+  apiError: (status?: number) => `An error occurred while fetching the definition. ${status ? `(Status: ${status})` : ''} Please try again later.`,
+  apiErrorTitle: (status?: number) => `API Error${status ? `: ${status}` : ''}`,
+  noDefinitionFound: (word: string) => `The API returned no definitions for "${word}".`,
+  noDefinitionFoundTitle: "No Definitions Found",
+  networkError: "Could not connect to the dictionary service. Please check your internet connection.",
+  networkErrorTitle: "Network Error!",
+  enterWord: "The search field cannot be empty.",
+  enterWordTitle: "Please enter a word!",
+  listenButton: "Listen",
+  origin: "Origin",
+  example: "Example",
+  synonyms: "Synonyms",
+  antonyms: "Antonyms"
+};
+
+export const RANDOM_ENGLISH_WORDS: string[] = [
+  "hello", "world", "javascript", "programming", "developer",
+  "computer", "science", "knowledge", "explore", "dictionary",
+  "language", "amazing", "beautiful", "challenge", "creative",
+  "discover", "freedom", "happiness", "inspiration", "journey",
+  "listen", "magic", "mystery", "opportunity", "passion",
+  "quality", "resource", "solution", "technology", "understand",
+  "victory", "wisdom",
+  "happy", "sad", "big", "small", "fast", "slow", "bright", "dark",
+  "begin", "end", "create", "destroy", "love", "hate", "friend", "enemy",
+  "simple", "complex", "true", "false", "hot", "cold", "open", "close",
+  "rich", "poor", "strong", "weak", "young", "old", "clean", "dirty",
+  "full", "empty", "light", "heavy", "loud", "quiet", "new",
+  "soft", "hard", "sweet", "sour", "tall", "short", "thick", "thin",
+  "wide", "narrow", "win", "lose", "arrive", "depart", "build", "demolish",
+  "buy", "sell", "catch", "miss", "give", "receive", "keep", "release",
+  "learn", "teach", "lend", "borrow", "raise", "lower", "send",
+  "spend", "save", "take", "wake", "sleep", "work", "rest"
+];

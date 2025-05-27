@@ -1,0 +1,6 @@
+{
+  "name": "Simple Dictionary",
+  "description": "A React-based dictionary application that allows users to search for word definitions, including phonetics, meanings, examples, synonyms, and antonyms. Users can also get definitions for random words.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
