@@ -1,0 +1,6 @@
+name = "simple-dictionary"
+compatibility_date = "2024-07-15"
+main = "dist/index.js"  # or your Vite build output file
+
+[pages]
+branch = "main"  # or your deployment branch
